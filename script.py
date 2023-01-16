@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-IMAGE_NAME = 'dummy_data_chart.png'
+IMAGE_NAME = 'iris_data_chart.png'
 
-dataset = pd.read_csv('dummy_data.csv')
+dataset = pd.read_csv('iris_data.csv')
 setosa=dataset[dataset['Species']=='setosa']
 versicolor =dataset[dataset['Species']=='versicolor']
 virginica =dataset[dataset['Species']=='virginica']
